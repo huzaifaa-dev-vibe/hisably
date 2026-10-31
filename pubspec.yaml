@@ -1,0 +1,43 @@
+name: hisably
+description: "Hisably — offline-first personal finance: accounts, budgets, khata and multi-currency tracking. Local-only, open-source."
+publish_to: 'none'
+
+version: 0.90.12+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^3.0.0
+
+  # Persistence (SQLite via Drift)
+  drift: ^2.28.0
+  sqlite3_flutter_libs: ^0.5.26
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # Navigation
+  go_router: ^16.0.0
+
+  # Formatting (locale-aware numbers/dates)
+  intl: ^0.20.2
+
+  # Lightweight local preferences (UI settings only — financial data lives in SQLite)
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.28.0
+  build_runner: ^2.4.15
+
+flutter:
+  uses-material-design: true

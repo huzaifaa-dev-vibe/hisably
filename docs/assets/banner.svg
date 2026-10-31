@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-label="Hisably — offline-first personal finance for Android">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0D14"/>
+      <stop offset="1" stop-color="#06070B"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141822" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0E111A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FB4FF"/>
+      <stop offset="0.5" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#A5B4FC"/>
+    </linearGradient>
+    <radialGradient id="blob1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3D5AFE" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3D5AFE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00BFA5" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#00BFA5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7C4DFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .title { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 88px; font-weight: 800; fill: #F0F3F9; letter-spacing: 1px; }
+      .tag   { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 30px; font-weight: 600; fill: #8FB4FF; }
+      .sub   { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 22px; font-weight: 400; fill: #AAB4C4; }
+      .card  { fill: url(#glass); stroke: #FFFFFF; stroke-opacity: 0.14; stroke-width: 1.5; }
+      .lbl   { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 15px; fill: #AAB4C4; }
+      .big   { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 30px; font-weight: 700; fill: #F0F3F9; }
+      .small { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <ellipse cx="220" cy="80"  rx="480" ry="300" fill="url(#blob1)"/>
+  <ellipse cx="1320" cy="430" rx="520" ry="320" fill="url(#blob2)"/>
+  <ellipse cx="1050" cy="60"  rx="360" ry="220" fill="url(#blob3)"/>
+
+  <!-- left: words -->
+  <text x="90" y="205" class="title">Hisably</text>
+  <text x="93" y="258" class="tag">Know your money. Own your numbers.</text>
+  <text x="93" y="312" class="sub">Offline-first personal finance for Android — accounts, budgets, khata,</text>
+  <text x="93" y="342" class="sub">multi-currency ledgers, reports, backups. No account. No internet.</text>
+  <rect x="93" y="372" width="430" height="4" rx="2" fill="url(#accentLine)"/>
+  <text x="93" y="424" class="sub" fill="#7C8698">Open source · SQLite ledger · Integer money math · 6 themes</text>
+
+  <!-- right: glass balance card -->
+  <g>
+    <rect x="900" y="90" width="380" height="200" rx="24" class="card"/>
+    <text x="930" y="130" class="lbl">TOTAL BALANCE</text>
+    <text x="930" y="180" class="big">$12,480.55</text>
+    <text x="930" y="216" class="small" fill="#4ADE80">+ $2,140.00 in</text>
+    <text x="1120" y="216" class="small" fill="#FF7A85">− $860.25 out</text>
+    <rect x="930" y="244" width="320" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="930" y="244" width="212" height="10" rx="5" fill="#8FB4FF"/>
+  </g>
+
+  <!-- right: glass keypad card -->
+  <g>
+    <rect x="900" y="310" width="380" height="120" rx="24" class="card"/>
+    <text x="930" y="348" class="lbl">QUICK ADD</text>
+    <text x="930" y="392" class="big">42.00</text>
+    <circle cx="1150" cy="352" r="16" fill="#14171F" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <circle cx="1194" cy="352" r="16" fill="#14171F" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <circle cx="1238" cy="352" r="16" fill="#8FB4FF"/>
+    <circle cx="1150" cy="394" r="16" fill="#14171F" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <circle cx="1194" cy="394" r="16" fill="#14171F" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <circle cx="1238" cy="394" r="16" fill="#4ADE80"/>
+  </g>
+</svg>

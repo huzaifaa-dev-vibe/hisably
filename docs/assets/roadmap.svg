@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img" aria-label="Roadmap from first slice to v1.0.0">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0D14"/>
+      <stop offset="1" stop-color="#06070B"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141822" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0E111A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="0.45" stop-color="#8FB4FF"/>
+      <stop offset="1" stop-color="#A5B4FC"/>
+    </linearGradient>
+    <style>
+      .h1 { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 40px; font-weight: 800; fill: #F0F3F9; }
+      .h2 { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 20px; fill: #AAB4C4; }
+      .v  { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 800; fill: #F0F3F9; }
+      .t  { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; fill: #AAB4C4; }
+      .tb { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-weight: 700; }
+      .card { fill: url(#glass); stroke: #FFFFFF; stroke-opacity: 0.12; stroke-width: 1.5; }
+      .chip { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1500" height="600" fill="url(#bg)"/>
+  <text x="70" y="70" class="h1">Roadmap</text>
+  <text x="70" y="104" class="h2">Shipped in small, tested increments — v1.0.0 is the stability milestone, and it is coming soon.</text>
+
+  <rect x="90" y="220" width="1320" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="90" y="220" width="340" height="6" rx="3" fill="url(#track)"/>
+
+  <!-- v0.1.0 -->
+  <g transform="translate(90,150)">
+    <circle cx="0" cy="73" r="14" fill="#22C55E"/>
+    <circle cx="0" cy="73" r="6" fill="#06070B"/>
+    <rect x="-20" y="120" width="290" height="200" rx="20" class="card"/>
+    <text x="0" y="165" class="v">v0.1.0</text>
+    <text x="0" y="196" class="tb" fill="#4ADE80">First vertical slice</text>
+    <text x="0" y="228" class="t">Accounts · Quick Add · ledger</text>
+    <text x="0" y="254" class="t">SQLite persistence across</text>
+    <text x="0" y="280" class="t">restarts · 43 tests</text>
+  </g>
+
+  <!-- v0.90.12 -->
+  <g transform="translate(430,150)">
+    <circle cx="0" cy="73" r="18" fill="#8FB4FF"/>
+    <circle cx="0" cy="73" r="7" fill="#06070B"/>
+    <rect x="-20" y="40" width="150" height="34" rx="17" fill="#8FB4FF"/>
+    <text y="63" class="chip" fill="#0A1020" text-anchor="middle" x="75">YOU ARE HERE</text>
+    <rect x="-20" y="120" width="290" height="200" rx="20" class="card" stroke="#8FB4FF" stroke-opacity="0.5"/>
+    <text x="0" y="165" class="v">v0.90.12</text>
+    <text x="0" y="196" class="tb" fill="#8FB4FF">Public pre-release</text>
+    <text x="0" y="228" class="t">Charts · budgets · khata · 6 themes</text>
+    <text x="0" y="254" class="t">haptics · export/backup · 113 tests</text>
+    <text x="0" y="280" class="t">known issues documented</text>
+  </g>
+
+  <!-- v1.0.0 -->
+  <g transform="translate(790,150)">
+    <circle cx="0" cy="73" r="14" fill="#A5B4FC"/>
+    <circle cx="0" cy="73" r="6" fill="#06070B"/>
+    <rect x="-20" y="40" width="130" height="34" rx="17" fill="none" stroke="#FFC069" stroke-width="1.5"/>
+    <text x="45" y="63" class="chip" fill="#FFC069" text-anchor="middle">COMING SOON</text>
+    <rect x="-20" y="120" width="290" height="200" rx="20" class="card" stroke="#FFC069" stroke-opacity="0.45"/>
+    <text x="0" y="165" class="v">v1.0.0</text>
+    <text x="0" y="196" class="tb" fill="#FFC069">Stability milestone</text>
+    <text x="0" y="228" class="t">Balance consistency · overspend</text>
+    <text x="0" y="254" class="t">guard · Quick Add state fix ·</text>
+    <text x="0" y="280" class="t">History states · account editing</text>
+  </g>
+
+  <!-- v1.1+ -->
+  <g transform="translate(1150,150)">
+    <circle cx="0" cy="73" r="14" fill="none" stroke="#A5B4FC" stroke-width="2"/>
+    <circle cx="0" cy="73" r="6" fill="none" stroke="#A5B4FC" stroke-width="2"/>
+    <rect x="-20" y="120" width="290" height="200" rx="20" class="card"/>
+    <text x="0" y="165" class="v">v1.1+</text>
+    <text x="0" y="196" class="tb" fill="#AAB4C4">Then</text>
+    <text x="0" y="228" class="t">Recurring transactions · category</text>
+    <text x="0" y="254" class="t">manager · file-picker restore ·</text>
+    <text x="0" y="280" class="t">signed release builds</text>
+  </g>
+
+  <text x="70" y="555" class="t" fill="#7C8698">Every release is built from a verified gate: flutter analyze (0 issues) → flutter test (all green) → APK smoke checks.</text>
+</svg>

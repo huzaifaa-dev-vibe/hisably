@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560" role="img" aria-label="The six Hisably themes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0D14"/>
+      <stop offset="1" stop-color="#06070B"/>
+    </linearGradient>
+    <linearGradient id="p-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F5FA"/><stop offset="1" stop-color="#E9EDF5"/>
+    </linearGradient>
+    <linearGradient id="o-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0D14"/><stop offset="1" stop-color="#06070B"/>
+    </linearGradient>
+    <linearGradient id="m-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A1120"/><stop offset="1" stop-color="#060B16"/>
+    </linearGradient>
+    <linearGradient id="f-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C1512"/><stop offset="1" stop-color="#070D0B"/>
+    </linearGradient>
+    <linearGradient id="s-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F4EC"/><stop offset="1" stop-color="#EFE8DB"/>
+    </linearGradient>
+    <linearGradient id="halfL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F5FA"/><stop offset="1" stop-color="#E9EDF5"/>
+    </linearGradient>
+    <style>
+      .h1 { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 40px; font-weight: 800; fill: #F0F3F9; }
+      .h2 { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 20px; fill: #AAB4C4; }
+      .nm { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #F0F3F9; }
+      .sb { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 17px; fill: #7C8698; }
+      .innerlbl { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 11px; letter-spacing: 1px; }
+      .cardStroke { fill: none; stroke: #FFFFFF; stroke-opacity: 0.16; stroke-width: 1.5; }
+    </style>
+    <clipPath id="c1"><rect x="0" y="0" width="200" height="330" rx="28"/></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" width="200" height="330" rx="28"/></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" width="200" height="330" rx="28"/></clipPath>
+    <clipPath id="c4"><rect x="0" y="0" width="200" height="330" rx="28"/></clipPath>
+    <clipPath id="c5"><rect x="0" y="0" width="200" height="330" rx="28"/></clipPath>
+    <clipPath id="c6"><rect x="0" y="0" width="200" height="330" rx="28"/></clipPath>
+  </defs>
+
+  <rect width="1500" height="560" fill="url(#bg)"/>
+  <text x="70" y="70" class="h1">Six themes, one contrast contract</text>
+  <text x="70" y="104" class="h2">Light and dark are built in — every text/background pair is enforced ≥ 4.5:1 by an automated WCAG test.</text>
+
+  <!-- System -->
+  <g transform="translate(70,140)">
+    <g clip-path="url(#c1)">
+      <rect x="0" y="0" width="200" height="165" fill="url(#halfL)"/>
+      <rect x="0" y="165" width="200" height="165" fill="url(#o-bg)"/>
+      <rect x="24" y="60" width="152" height="64" rx="14" fill="#FFFFFF" fill-opacity="0.6"/>
+      <text x="36" y="84" class="innerlbl" fill="#596272">BALANCE</text>
+      <text x="36" y="110" class="innerlbl" fill="#10141B" font-weight="700" font-size="16">A / A</text>
+      <rect x="24" y="200" width="152" height="64" rx="14" fill="#141822" fill-opacity="0.85"/>
+      <text x="36" y="224" class="innerlbl" fill="#AAB4C4">BALANCE</text>
+      <text x="36" y="250" class="innerlbl" fill="#F0F3F9" font-weight="700" font-size="16">A / A</text>
+    </g>
+    <rect x="0" y="0" width="200" height="330" rx="28" class="cardStroke"/>
+    <text x="0" y="368" class="nm">System</text>
+    <text x="0" y="394" class="sb">Auto — follows the OS</text>
+  </g>
+
+  <!-- Porcelain -->
+  <g transform="translate(302,140)">
+    <g clip-path="url(#c2)">
+      <rect x="0" y="0" width="200" height="330" fill="url(#p-bg)"/>
+      <ellipse cx="150" cy="34" rx="80" ry="56" fill="#9DB8FF" fill-opacity="0.25"/>
+      <rect x="24" y="60" width="152" height="64" rx="14" fill="#FFFFFF" fill-opacity="0.9"/>
+      <text x="36" y="84" class="innerlbl" fill="#4E586B">BALANCE</text>
+      <text x="36" y="110" class="innerlbl" fill="#10141B" font-weight="700" font-size="16">$4,208.90</text>
+      <circle cx="36" cy="150" r="7" fill="#3D6BE0"/>
+      <circle cx="60" cy="150" r="7" fill="#0B8A50"/>
+      <circle cx="84" cy="150" r="7" fill="#D93A44"/>
+      <rect x="24" y="180" width="152" height="12" rx="6" fill="#3D6BE0" fill-opacity="0.85"/>
+      <rect x="24" y="204" width="110" height="12" rx="6" fill="#0B8A50" fill-opacity="0.8"/>
+    </g>
+    <rect x="0" y="0" width="200" height="330" rx="28" class="cardStroke"/>
+    <text x="0" y="368" class="nm">Porcelain</text>
+    <text x="0" y="394" class="sb">Light · cool glass, blue</text>
+  </g>
+
+  <!-- Obsidian -->
+  <g transform="translate(534,140)">
+    <g clip-path="url(#c3)">
+      <rect x="0" y="0" width="200" height="330" fill="url(#o-bg)"/>
+      <ellipse cx="150" cy="34" rx="80" ry="56" fill="#3D5AFE" fill-opacity="0.3"/>
+      <ellipse cx="50" cy="300" rx="80" ry="56" fill="#00BFA5" fill-opacity="0.18"/>
+      <rect x="24" y="60" width="152" height="64" rx="14" fill="#141822" fill-opacity="0.92"/>
+      <text x="36" y="84" class="innerlbl" fill="#AAB4C4">BALANCE</text>
+      <text x="36" y="110" class="innerlbl" fill="#F0F3F9" font-weight="700" font-size="16">$4,208.90</text>
+      <circle cx="36" cy="150" r="7" fill="#8FB4FF"/>
+      <circle cx="60" cy="150" r="7" fill="#4ADE80"/>
+      <circle cx="84" cy="150" r="7" fill="#FF7A85"/>
+      <rect x="24" y="180" width="152" height="12" rx="6" fill="#8FB4FF" fill-opacity="0.9"/>
+      <rect x="24" y="204" width="110" height="12" rx="6" fill="#4ADE80" fill-opacity="0.8"/>
+    </g>
+    <rect x="0" y="0" width="200" height="330" rx="28" class="cardStroke"/>
+    <text x="0" y="368" class="nm">Obsidian</text>
+    <text x="0" y="394" class="sb">Dark · default theme</text>
+  </g>
+
+  <!-- Midnight -->
+  <g transform="translate(766,140)">
+    <g clip-path="url(#c4)">
+      <rect x="0" y="0" width="200" height="330" fill="url(#m-bg)"/>
+      <ellipse cx="150" cy="34" rx="80" ry="56" fill="#00C2FF" fill-opacity="0.28"/>
+      <rect x="24" y="60" width="152" height="64" rx="14" fill="#0F1A2E" fill-opacity="0.92"/>
+      <text x="36" y="84" class="innerlbl" fill="#A3B8D8">BALANCE</text>
+      <text x="36" y="110" class="innerlbl" fill="#EDF4FF" font-weight="700" font-size="16">$4,208.90</text>
+      <circle cx="36" cy="150" r="7" fill="#67E8F9"/>
+      <circle cx="60" cy="150" r="7" fill="#34D399"/>
+      <circle cx="84" cy="150" r="7" fill="#F87171"/>
+      <rect x="24" y="180" width="152" height="12" rx="6" fill="#67E8F9" fill-opacity="0.9"/>
+      <rect x="24" y="204" width="110" height="12" rx="6" fill="#34D399" fill-opacity="0.8"/>
+    </g>
+    <rect x="0" y="0" width="200" height="330" rx="28" class="cardStroke"/>
+    <text x="0" y="368" class="nm">Midnight</text>
+    <text x="0" y="394" class="sb">Dark · navy, cyan accent</text>
+  </g>
+
+  <!-- Forest -->
+  <g transform="translate(998,140)">
+    <g clip-path="url(#c5)">
+      <rect x="0" y="0" width="200" height="330" fill="url(#f-bg)"/>
+      <ellipse cx="150" cy="34" rx="80" ry="56" fill="#10B981" fill-opacity="0.26"/>
+      <rect x="24" y="60" width="152" height="64" rx="14" fill="#121D18" fill-opacity="0.92"/>
+      <text x="36" y="84" class="innerlbl" fill="#A6C3B4">BALANCE</text>
+      <text x="36" y="110" class="innerlbl" fill="#ECF6F0" font-weight="700" font-size="16">$4,208.90</text>
+      <circle cx="36" cy="150" r="7" fill="#6EE7B7"/>
+      <circle cx="60" cy="150" r="7" fill="#86EFAC"/>
+      <circle cx="84" cy="150" r="7" fill="#FCA5A5"/>
+      <rect x="24" y="180" width="152" height="12" rx="6" fill="#6EE7B7" fill-opacity="0.9"/>
+      <rect x="24" y="204" width="110" height="12" rx="6" fill="#86EFAC" fill-opacity="0.8"/>
+    </g>
+    <rect x="0" y="0" width="200" height="330" rx="28" class="cardStroke"/>
+    <text x="0" y="368" class="nm">Forest</text>
+    <text x="0" y="394" class="sb">Dark · green, mint accent</text>
+  </g>
+
+  <!-- Sand -->
+  <g transform="translate(1230,140)">
+    <g clip-path="url(#c6)">
+      <rect x="0" y="0" width="200" height="330" fill="url(#s-bg)"/>
+      <ellipse cx="150" cy="34" rx="80" ry="56" fill="#F59E0B" fill-opacity="0.22"/>
+      <rect x="24" y="60" width="152" height="64" rx="14" fill="#FFFFFF" fill-opacity="0.9"/>
+      <text x="36" y="84" class="innerlbl" fill="#5C5140">BALANCE</text>
+      <text x="36" y="110" class="innerlbl" fill="#231C12" font-weight="700" font-size="16">$4,208.90</text>
+      <circle cx="36" cy="150" r="7" fill="#C2410C"/>
+      <circle cx="60" cy="150" r="7" fill="#15803D"/>
+      <circle cx="84" cy="150" r="7" fill="#DC2626"/>
+      <rect x="24" y="180" width="152" height="12" rx="6" fill="#C2410C" fill-opacity="0.9"/>
+      <rect x="24" y="204" width="110" height="12" rx="6" fill="#15803D" fill-opacity="0.8"/>
+    </g>
+    <rect x="0" y="0" width="200" height="330" rx="28" class="cardStroke"/>
+    <text x="0" y="368" class="nm">Sand</text>
+    <text x="0" y="394" class="sb">Light · warm paper</text>
+  </g>
+</svg>

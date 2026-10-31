@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880" role="img" aria-label="v0.90.12 feature status by module">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0D14"/>
+      <stop offset="1" stop-color="#06070B"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141822" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0E111A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="gDone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#4ADE80"/>
+    </linearGradient>
+    <linearGradient id="gImpl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3D6BE0"/>
+      <stop offset="1" stop-color="#8FB4FF"/>
+    </linearGradient>
+    <linearGradient id="gIssue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D97706"/>
+      <stop offset="1" stop-color="#FFC069"/>
+    </linearGradient>
+    <style>
+      .h1  { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 40px; font-weight: 800; fill: #F0F3F9; }
+      .h2  { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #AAB4C4; }
+      .lbl { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 21px; fill: #E7ECF5; }
+      .val { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #F0F3F9; }
+      .lg  { font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 18px; fill: #AAB4C4; }
+      .card { fill: url(#glass); stroke: #FFFFFF; stroke-opacity: 0.12; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="1500" height="880" fill="url(#bg)"/>
+  <text x="70" y="76" class="h1">v0.90.12 — module status</text>
+  <text x="70" y="112" class="h2">What works today, straight from the test suite and the known-issues list. No marketing.</text>
+
+  <g>
+    <rect x="70" y="150" width="1360" height="560" rx="24" class="card"/>
+
+    <!-- rows: label x=100, bar x=520 width up to 620, value -->
+    <!-- 1 Money core -->
+    <text x="100" y="206" class="lbl">Money core — integer minor units</text>
+    <rect x="520" y="188" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="188" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="207" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 2 Ledger -->
+    <text x="100" y="264" class="lbl">Ledger — in / out / transfer / exchange</text>
+    <rect x="520" y="246" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="246" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="265" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 3 Accounts -->
+    <text x="100" y="322" class="lbl">Accounts + derived balances</text>
+    <rect x="520" y="304" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="304" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="323" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 4 Reports -->
+    <text x="100" y="380" class="lbl">Reports — 4 chart types, per-currency</text>
+    <rect x="520" y="362" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="362" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="381" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 5 Budgets -->
+    <text x="100" y="438" class="lbl">Monthly budgets — live derived spend</text>
+    <rect x="520" y="420" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="420" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="439" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 6 Khata -->
+    <text x="100" y="496" class="lbl">Khata — people, gave/took, settle-up</text>
+    <rect x="520" y="478" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="478" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="497" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 7 Export -->
+    <text x="100" y="554" class="lbl">CSV export + JSON backup/restore</text>
+    <rect x="520" y="536" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="536" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="555" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 8 Themes -->
+    <text x="100" y="612" class="lbl">6 themes + WCAG contrast contract</text>
+    <rect x="520" y="594" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="594" width="620" height="26" rx="13" fill="url(#gDone)"/>
+    <text x="1150" y="613" class="val" fill="#4ADE80">tested ✓</text>
+
+    <!-- 9 Quick Add -->
+    <text x="100" y="670" class="lbl">Quick Add — redesigned flow</text>
+    <rect x="520" y="652" width="620" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.06"/>
+    <rect x="520" y="652" width="560" height="26" rx="13" fill="url(#gImpl)"/>
+    <text x="1150" y="671" class="val" fill="#8FB4FF">state bug open</text>
+  </g>
+
+  <!-- known issues card -->
+  <g>
+    <rect x="70" y="740" width="1360" height="100" rx="24" class="card"/>
+    <text x="100" y="778" class="lbl">Open gaps in v0.90.12</text>
+    <text x="100" y="812" class="lg" fill="#FFC069">account editing · overspend guard · dashboard balance consistency · History loading states</text>
+  </g>
+
+  <!-- legend -->
+  <g>
+    <rect x="70" y="838" width="18" height="18" rx="5" fill="url(#gDone)"/>
+    <text x="96" y="853" class="lg">implemented + tested</text>
+    <rect x="330" y="838" width="18" height="18" rx="5" fill="url(#gImpl)"/>
+    <text x="356" y="853" class="lg">implemented, minor issue open</text>
+    <rect x="640" y="838" width="18" height="18" rx="5" fill="url(#gIssue)"/>
+    <text x="666" y="853" class="lg">gap — planned for v1.0.0</text>
+  </g>
+</svg>
